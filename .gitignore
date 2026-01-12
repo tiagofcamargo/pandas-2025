@@ -1,0 +1,53 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ==============================
+# Ambientes virtuais
+# ==============================
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# ==============================
+# Jupyter / Pandas
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Arquivos de sistema
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# WSL / Linux
+# ==============================
+*~
+.nfs*
+
+# ==============================
+# Dados locais (opcional)
+# ==============================
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.
+# Se NÃO quiser versionar os CSVs, descomen
